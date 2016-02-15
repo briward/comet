@@ -21,8 +21,8 @@
 /**
  * The unit mixin.
  */
-@mixin unit($numerator, $denominator) {
-  @if $denominator {
+@mixin unit($numerator, $denominator:"") {
+  @if $denominator != "" {
     @extend .pure-u-#{$numerator}-#{$denominator} !optional;
   } @else {
     @extend .pure-u-#{$numerator} !optional;
