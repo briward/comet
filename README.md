@@ -31,7 +31,7 @@ The `unit()` mixin provides a simple way to add grid classes to any element in t
 
   .unit {
 
-    @include unit(1, 2);
+    @include unit(1, 2); /* .pure-u-1-2 */
 
     .inner {
       background: #ddd;
@@ -40,5 +40,4 @@ The `unit()` mixin provides a simple way to add grid classes to any element in t
 
   }
 }
-
-``` 
+```
