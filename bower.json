@@ -1,18 +1,12 @@
 {
   "name": "stellar",
+  "description": "Stellar is a clean wrapper around the Pure grid framework.",
+  "version": "0.0.1",
+  "main": "_stellar.scss",
+  "license": "MIT",
   "authors": [
     "Bri Ward <me@briward.com>"
   ],
-  "version": "0.0.1",
-  "description": "Stellar is a clean wrapper around the Pure grid framework.",
-  "main": "_stellar.scss",
-  "keywords": [
-    "pure",
-    "css",
-    "sass",
-    "grids"
-  ],
-  "license": "MIT",
   "homepage": "stellar.briward.com",
   "dependencies": {
     "pure-grids": "~0.6.0"
