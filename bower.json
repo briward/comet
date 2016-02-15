@@ -7,10 +7,7 @@
   "authors": [
     "Bri Ward <me@briward.com>"
   ],
-  "dependencies": {
+  "devDependencies": {
     "pure": "~0.6.0"
-  },
-  "scripts": {
-    "postinstall": "gulp"
   }
 }
