@@ -15,19 +15,16 @@
  * The container mixin.
  */
 @mixin container() {
-  @extend .pure-g;
+  @extend .pure-g !optional;
 }
 
 /**
  * The unit mixin.
  */
 @mixin unit($numerator, $denominator) {
-  @extend .pure-u-#{$numerator}-#{$denominator};
-}
-
-/**
- * The responsive unit mixin.
- */
-@mixin unit-responsive($numerator, $denominator, $size) {
-  @extend .pure-u-#{$size}-#{$numerator}-#{$denominator} !optional;
+  @if $denominator {
+    @extend .pure-u-#{$numerator}-#{$denominator} !optional;
+  } @else {
+    @extend .pure-u-#{$numerator} !optional;
+  }
 }
