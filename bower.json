@@ -1,13 +1,12 @@
 {
-  "name": "stellar",
-  "description": "Stellar is a clean wrapper around the Pure grid framework.",
+  "name": "comet",
+  "description": "Comet is a clean wrapper around the Pure grid framework.",
   "version": "0.1.0",
-  "main": "_stellar.scss",
+  "main": "_comet.scss",
   "license": "MIT",
   "authors": [
     "Bri Ward <me@briward.com>"
   ],
-  "homepage": "stellar.briward.com",
   "dependencies": {
     "pure-grids": "~0.6.0"
   },
