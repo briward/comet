@@ -14,14 +14,14 @@
 /**
  * The container mixin.
  */
-@mixin container() {
+@mixin comet-container() {
   @extend .pure-g !optional;
 }
 
 /**
  * The unit mixin.
  */
-@mixin unit($numerator, $denominator:"") {
+@mixin comet-unit($numerator, $denominator:"") {
   @if $denominator != "" {
     @extend .pure-u-#{$numerator}-#{$denominator} !optional;
   } @else {
