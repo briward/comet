@@ -1,7 +1,7 @@
 {
   "name": "comet",
   "description": "Comet is a clean wrapper around the Pure grid framework.",
-  "version": "0.1.0",
+  "version": "0.0.2",
   "main": "_comet.scss",
   "license": "MIT",
   "authors": [
