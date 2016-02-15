@@ -1,0 +1,7 @@
+bower_components
+.sass-cache
+main.scss
+main.css.map
+main.css
+index.html
+node_modules
