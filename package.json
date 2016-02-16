@@ -1,0 +1,28 @@
+{
+  "version": "0.0.5",
+  "license": "MIT",
+  "description": "Source code for Comet",
+  "homepage": "https://github.com/briward/comet",
+  "bugs": {
+    "url": "https://github.com/briward/comet/issues",
+    "email": "me@briward.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:briward/comet.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-rename": "^1.2.2",
+    "mocha": "^2.4.5",
+    "sassaby": "^2.1.1"
+  },
+  "dependencies": {},
+  "engines": {
+    "npm": ">=3.3.12"
+  }
+}
