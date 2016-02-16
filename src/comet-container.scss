@@ -1,0 +1,14 @@
+/**
+ * Comet CSS (Pure grid wrapper)
+ *
+ * Author: Bri Ward
+ * Website: http://briward.com
+ * License: MIT (https://opensource.org/licenses/MIT)
+ *
+ * I'm merely standing on the shoulders of giants.
+ * For original framework, see http://purecss.com (Yahoo)
+ */
+
+@mixin comet-container() {
+  @extend .pure-g !optional;
+}

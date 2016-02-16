@@ -9,18 +9,6 @@
  * For original framework, see http://purecss.com (Yahoo)
  */
 
-@import 'pure';
-
-/**
- * The container mixin.
- */
-@mixin comet-container() {
-  @extend .pure-g !optional;
-}
-
-/**
- * The unit mixin.
- */
 @mixin comet-unit($numerator, $denominator:"") {
   @if $denominator != "" {
     @extend .pure-u-#{$numerator}-#{$denominator} !optional;

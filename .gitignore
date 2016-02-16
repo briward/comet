@@ -1,7 +1,3 @@
 bower_components
 node_modules
-index.html
-main.css.map
-main.css
-main.scss
-.sass-cache
+src/pure.scss
