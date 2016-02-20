@@ -9,10 +9,14 @@
  * For original framework, see http://purecss.com (Yahoo)
  */
 
-@mixin comet-unit($numerator, $denominator:"") {
-  @if $denominator != "" {
-    @extend .pure-u-#{$numerator}-#{$denominator} !optional;
+@mixin comet-unit($numerator: "", $denominator: "") {
+  @if $numerator != "" {
+    @if $denominator != "" {
+      @extend .pure-u-#{$numerator}-#{$denominator} !optional;
+    } @else {
+      @extend .pure-u-#{$numerator} !optional;
+    }
   } @else {
-    @extend .pure-u-#{$numerator} !optional;
+    @extend .pure-u !optional;
   }
 }

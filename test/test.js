@@ -18,17 +18,35 @@ describe('_comet.scss', function() {
 	 * Test that the comet-container() mixin works appropriately.
 	 */
 	describe('comet-container()', function() {
-		it('should return .pure-g', function() {
+		it('should return the grid selector', function() {
 			sassaby.standaloneMixin('comet-container').called().createsSelector('.pure-g');
 		});
 	});
 
 	/**
-	 * Test that the comet-unit() mixin works appropriately.
+	 * Test that the comet-unit() returns .pure-u-1-2
 	 */
 	describe('comet-unit(1, 2)', function() {
-		it('should return .pure-u-1-2', function() {
-			sassaby.standaloneMixin('comet-unit').calledWithArgs([1, 2]).createsSelector('.pure-u-1-2');
+		it('should create the selector .pure-u-1-2', function() {
+			sassaby.standaloneMixin('comet-unit').calledWithArgs(1, 2).createsSelector('.pure-u-1-2');
+		});
+	});
+
+	/**
+	 * Test that the comet-unit() returns .pure-u-1
+	 */
+	describe('comet-unit(1)', function() {
+		it('should create the selector .pure-u-1', function() {
+			sassaby.standaloneMixin('comet-unit').calledWithArgs(1).createsSelector('.pure-u-1');
+		});
+	});
+
+	/**
+	 * Test that the comet-unit() returns .pure-u
+	 */
+	describe('comet-unit()', function() {
+		it('should return .pure-u', function() {
+			sassaby.standaloneMixin('comet-unit').called().createsSelector('.pure-u')
 		});
 	});
 
