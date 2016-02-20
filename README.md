@@ -1,5 +1,7 @@
 # Comet CSS
 
+[![Build Status](https://travis-ci.org/briward/comet.svg?branch=master)](https://travis-ci.org/briward/comet) [![Bower Version](https://img.shields.io/badge/bower-v0.0.6-yellow.svg)](https://travis-ci.org/briward/comet)
+
 Comet is a clean and simple SASS wrapper for the Pure Grid framework ([http://purecss.io/grids](http://purecss.io/grids)). All credit goes to the Pure CSS team at Yahoo, I'm merely standing on the shoulders of giants.
 
 ## Installation
